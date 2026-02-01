@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Chronify",
+  "version": "2.0",
+  "permissions": ["tabs","storage"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_popup": "popup.html" }
+}
